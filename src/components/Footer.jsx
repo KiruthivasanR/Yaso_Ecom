@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
           </div>
           <p className="footer-tagline">
-            Premium farm-fresh dairy delivered chilled every morning within a 15km radius.
+            Premium farm-fresh dairy delivered chilled every morning within a 5km radius.
           </p>
           <div className="footer-social">
             <button type="button" aria-label="Instagram" className="social-icon">
@@ -66,6 +66,7 @@ const Footer = () => {
             <span className="store-label">GET IT ON</span>
             <span className="store-name">Google Play(Coming Soon)</span>
           </button>
+          <span></span>
           <button type="button" className="store-badge store-badge-outline">
             <span className="store-label">Download on the</span>
             <span className="store-name">App Store(Coming Soon)</span>
@@ -74,6 +75,9 @@ const Footer = () => {
       </motion.div>
       <div className="footer-bottom">
         <span>© {new Date().getFullYear()} Yasodha Dairy. All rights reserved.</span>
+      </div>
+       <div className="footer-bottom">
+        <span>Due to the perishable nature of our dairy products, all orders are non-refundable and non-returnable. Please report any quality concerns at the time of delivery.</span>
       </div>
     </footer>
   );

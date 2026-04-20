@@ -16,7 +16,7 @@ const steps = [
     description: 'Milk is pasteurised and packed in fully automated, contactless lines.'
   },
   {
-    title: 'Delivered within 15km radius',
+    title: 'Delivered within 5km radius',
     description:
       'Insulated delivery partners bring chilled milk to your doorstep every morning.'
   }
