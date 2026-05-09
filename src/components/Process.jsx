@@ -3,22 +3,22 @@ import { motion } from 'framer-motion';
 
 const steps = [
   {
-    title: 'Milk collected from healthy cows',
-    description: 'We source milk from well-fed, stress-free cows on our own partner farms.'
+    title: 'Farm Fresh Collection',
+    description: 'We collect fresh milk daily from trusted local dairy farms with quality sourcing standards..'
   },
   {
-    title: 'Quality tested in lab',
+    title: 'Quality Checked Process',
     description:
-      'Every batch is checked for adulteration, antibiotics, and temperature before processing.'
+      'Every batch undergoes standard quality checks to ensure freshness and consistency..'
   },
   {
-    title: 'Packed hygienically',
-    description: 'Milk is pasteurised and packed in fully automated, contactless lines.'
+    title: 'Hygienically Packed',
+    description: 'Milk is processed and packed hygienically to maintain freshness and quality for everyday use.'
   },
   {
     title: 'Delivered within 5km radius',
     description:
-      'Insulated delivery partners bring chilled milk to your doorstep every morning.'
+      'Fresh dairy products delivered carefully to customers every morning.'
   }
 ];
 

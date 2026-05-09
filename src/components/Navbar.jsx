@@ -11,15 +11,16 @@ const scrollToSection = (id) => {
 };
 
 const Navbar = () => {
-  const menuItems = [
-    { label: 'Home', id: 'home' },
-    { label: 'Products', id: 'products' },
-    { label: 'Categories', id: 'categories' },
-   { label: 'Reviews', id: 'reviews' },
-    { label: 'Nutrition', id: 'nutrition' },
-    { label: 'App', id: 'app' },
-    { label: 'Contact', id: 'contact' }
-  ];
+ const menuItems = [
+  { label: 'Home', id: 'home' },
+  { label: 'About', id: 'brand' },
+  { label: 'Categories', id: 'categories' },
+  { label: 'Products', id: 'products' },
+  
+  { label: 'Community', id: 'nutrition' },
+  { label: 'App', id: 'app' },
+  { label: 'Contact', id: 'contact' }
+];
 
   return (
     <motion.header

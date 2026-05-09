@@ -206,6 +206,58 @@ main {
   margin: 0;
   color: var(--color-muted);
 }
+.policy-btn {
+  background: none;
+  border: none;
+  color: #555;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.policy-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.policy-content {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;   /* 🔥 important */
+  overflow-y: auto;   /* 🔥 scroll */
+  position: relative;
+  line-height: 1.6;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+}
 
 .navbar {
   position: fixed;

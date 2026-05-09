@@ -36,16 +36,16 @@ const Hero = () => {
         <div className="hero-text">
           
           <span className="hero-tag">
-            100% Farm Fresh • 0 Preservatives
+           Freshly Prepared • No Added Preservatives
           </span>
 
           <h1 className="hero-title">
-            Farm Fresh Dairy
+          Fresh Dairy Delivered Daily
             <span className="hero-highlight"> Delivered Daily</span>
           </h1>
 
           <p className="hero-subtitle">
-            Pure milk and artisan dairy products sourced directly from our farm,
+            Carefully prepared dairy products for everyday convenience and reliable,
             delivered chilled within a 15km radius every single morning.
           </p>
 
@@ -69,7 +69,7 @@ const Hero = () => {
             <img src={ghee} alt="Ghee" className="hero-ghee-img" />
             
             <div className="hero-product-badge">
-              Pure A2 Ghee
+              Pure Ghee
             </div>
           </div>
 

@@ -12,7 +12,7 @@ const testimonials = [
     name: 'Rahul Verma',
     role: 'Fitness Enthusiast',
     quote:
-      'High protein paneer and clean label products. The app makes it super easy to manage my diet.',
+      'paneer and clean label products. The app makes it super easy to manage my diet.',
     avatar: 'RV'
   },
   {

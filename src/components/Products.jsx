@@ -10,9 +10,9 @@ import ghee from '../assets/yaso_ghee.png';
 
 const productData = [
   {
-    name: 'Farm Fresh Milk',
+    name: 'Fresh Milk',
     image: milk,
-    description: 'Rich, creamy cow milk collected every morning.',
+    description: 'Rich, Daily dairy goodness Freshly packed every morning.',
     variants: [
       { quantity: '500ml', price: '₹35' },
       { quantity: '1L', price: '₹65' }

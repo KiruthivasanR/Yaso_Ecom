@@ -41,10 +41,10 @@ const Contact = () => {
         >
           <h3>Reach Us</h3>
           <p className="contact-detail">
-            <strong>Address:</strong> 101, Anna Salai, J C K Nagar, Chengalpattu, Hanumanthai, Tamil Nadu 603001
+            <strong>Address:</strong> No. 10-1 Mariyamman Kovil Street, Maduranthakam, Kancheepuram, Maiyur RF,Chengalpattu, Tamil Nadu-603111,India
           </p>
           <p className="contact-detail">
-            <strong>Phone:</strong> +91-7200451986
+            <strong>Phone:</strong> +919597951766
           </p>
           <p className="contact-detail">
             <strong>Email:</strong> yasodairies@gmail.com
