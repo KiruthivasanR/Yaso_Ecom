@@ -50,7 +50,17 @@ const Hero = () => {
           </p>
 
           <div className="hero-ctas">
-            <button className="btn btn-primary">Download App</button>
+           <button
+  className="btn btn-primary"
+  onClick={() =>
+    window.open(
+      "https://play.google.com/store/apps/details?id=com.yashodhadairies.app",
+      "_blank"
+    )
+  }
+>
+  Download App
+</button>
             <button className="btn btn-ghost">View Products</button>
           </div>
 

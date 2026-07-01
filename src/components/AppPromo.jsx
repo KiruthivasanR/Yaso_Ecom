@@ -1,4 +1,5 @@
 import React from 'react';
+import appHome from '../assets/app_home.png';
 import { motion } from 'framer-motion';
 
 const AppPromo = () => {
@@ -12,19 +13,24 @@ const AppPromo = () => {
         transition={{ duration: 0.7 }}
       >
         <div className="app-promo-text">
-          <h2>Our App is Coming Soon 🚀</h2>
-          <p>
-            We are working on a smart dairy management app that will help you
-            manage subscriptions, track deliveries, and handle payments easily.
-            Stay tuned for the launch!
-          </p>
+          <h2><h2>Download Our App 🚀</h2></h2>
+        <p>
+  Order fresh dairy products, manage subscriptions, track deliveries,
+  and enjoy a seamless shopping experience with the Yasodha Dairies App.
+  Download now and get fresh dairy delivered to your doorstep.
+</p>
 
           {/* COMING SOON BUTTON */}
-          <div className="app-download-row">
-            <button type="button" className="btn btn-primary" disabled>
-              Coming Soon on Play Store & App Store
-            </button>
-          </div>
+   <div className="app-download-row">
+  <a
+    href="https://play.google.com/store/apps/details?id=com.yashodhadairies.app"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn btn-primary"
+  >
+    Download on Play Store
+  </a>
+</div>
         </div>
 
         {/* PHONE MOCK */}
@@ -36,21 +42,15 @@ const AppPromo = () => {
           transition={{ duration: 0.8, delay: 0.1 }}
         >
           <div className="phone-screen">
-            <div className="phone-header">
-              <span>Yasodha Dairy App</span>
-            </div>
+           
 
-            <div className="phone-body">
-              <div className="phone-card">
-                <span className="phone-card-title">🚀 Coming Soon</span>
-                <p>Smart dairy management at your fingertips</p>
-              </div>
-
-              <div className="phone-card phone-card-secondary">
-                <span className="phone-card-title">Stay Updated</span>
-                <p>Launching soon on Android & iOS</p>
-              </div>
-            </div>
+          <div className="phone-body app-screenshot-container">
+  <img
+    src={appHome}
+    alt="Yasodha Dairies App"
+    className="app-screenshot"
+  />
+</div>
           </div>
         </motion.div>
       </motion.div>
